@@ -9,13 +9,12 @@ var Blob = require("./db").Blob;
 // setup data scraping
 var instance = new Campfire({
   ssl: true,
-  token: 'cb18d14d8dde352131858a5ed5663b3bf7c49b3b',
-  account: 'nelsoncash'
+  token: '',
+  account: ''
 });
 
 var scraper = new Scraper({
   campfire: instance,
-  // roomID: '536077' // GCL
   roomID: '415633' // Stamstich
 });
 
