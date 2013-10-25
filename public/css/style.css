@@ -1,0 +1,163 @@
+/* Put your CSS here */
+ html, body {
+    margin: 0px;
+    padding: 0;
+    height: 100%;
+    font: 9px sans-serif;
+    color: #747474;
+}
+header {
+  padding: 26px 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 8px;
+  background: #333;
+  color: white;
+  margin-bottom: 100px;
+}
+.container {
+    width:800px;
+    margin: 0 auto;
+
+}
+section {
+  padding-bottom: 100px;
+  overflow: auto;
+}
+section h1{
+  padding: 0 60px ;
+}
+.node {
+    border: solid 1px white;
+    font-weight: bold;
+    line-height: 12px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 2px;
+}
+.node span.name {
+    padding: 5px;
+    display: block;
+}
+.node span.val {
+    font-size: 9px;
+    font-weight: normal;
+    margin-left: 10px;
+    color: #747474;
+}
+.stat-container {
+    margin: 0px 60px 10px;
+}
+.stat-container div {
+  display: inline-block;
+  margin-right: 30px;
+  padding-right: 30px;
+  border-right: 1px solid #f0f0f0;
+  font-weight: bold;
+  font-size: 80px;
+  letter-spacing: -3px;
+  color: #444;
+}
+.stat-container div:last-child {
+    border: none;
+}
+.stat-container div span {
+  color: #747474;
+  font-size: 9px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+.day-chart-container {
+  font-size: 10px;
+}
+.day-chart-container circle.hover {
+  cursor:pointer;
+}
+.day-chart-container path {
+    stroke: steelblue;
+    stroke-width: 0;
+    fill: steelblue;
+    fill-opacity: 0.25;
+}
+.axis {
+    shape-rendering: crispEdges;
+}
+.x.axis text {
+  padding-top: 10px;
+}
+.x.axis line {
+    stroke: lightgrey;
+    stroke-opacity: .5
+}
+.x.axis .minor {
+    stroke-opacity: .25;
+}
+.x.axis path {
+    display: none;
+}
+.y.axis line, .y.axis path {
+    fill: none;
+    stroke: #000;
+}
+.y.axis line {
+  stroke: lightgrey;
+  stroke-opacity: .25;
+}
+.infobox {
+  margin:410px auto;
+  padding:5px 10px;
+  background:steelblue;
+  text-align: center;
+  color:white;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:10500;
+  font-weight:bold;
+} 
+.infobox span {
+  font-weight: normal;
+  font-size: 9px;
+}
+
+
+#rankings{
+  padding: 40px 60px 200px;
+}
+#rankings h1{
+  padding: 0;
+}
+#rankings p{
+  font-size: 12px;
+}
+#rankings select {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.rank-user-list > div{
+  width: 210px;
+  font-size: 11px;
+  padding: 8px 0 8px;
+  float: left;
+  margin-right: 50px;
+  border-bottom: 1px solid #f9f9f9;
+}
+.rank-user-list img {
+  float: left;
+  padding-right: 10px;
+}
+.rank-user-list .user-name {
+  float: left;
+}
+.rank-user-list div rank-stat {
+  font-size: 10px;
+  font-weight: bold;
+  display: block;
+}
+
+#rankings-plot {
+  padding: 0px 0 40px;
+}

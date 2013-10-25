@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ember Starter Kit</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--   <p id="p"></p> -->
+<!--   <script type="text/x-handlebars">
+    <div class="container">
+      <h2>Campfire Data</h2>
+
+      {{outlet}}
+    </div>
+   
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="index">
+    <ul>
+    {{#each item in model}}
+      <li>{{item}}</li>
+    {{/each}}
+    </ul>
+  </script> -->
+  <header>
+    Know Your Stammtisch
+  </header>
+  <section id="totals">
+    <h1>Totals</h1> 
+  </section>
+  <section id="line">
+    <h1>Posts Per Day</h1>   
+  </section>
+  <section id="bubble">
+    <h1>Word Occurences</h1> 
+  </section>
+
+  <section id="rankings">
+    <h1>User Superlatives</h1>
+    <p>
+      How did users
+    <select name="select">
+      <option value="questions" selected>Ask questions</option>
+      <option value="selfs">Mention themsleves</option>
+      <option value="curses">Use curse words</option> 
+      <option value="gifs">Post .gifs</option>
+      <option value="laughs">Laugh at something</option>
+    </select>
+    </p>
+    <div  id="rankings-plot"></div>
+  </section>
+
+
+
+  <script src="js/libs/jquery-1.9.1.js"></script>
+  <script src="js/libs/handlebars-1.0.0-rc.4.js"></script>
+  <script src="js/libs/ember-1.0.0-rc.6.js"></script>
+  <script src="js/libs/ember-data-latest.js"></script>
+  <script src="js/libs/d3.v3.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
